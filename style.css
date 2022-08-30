@@ -6,6 +6,10 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+header {
+    overflow-x: hidden;
+}
+
 .banner {
     background-color: black;
     color: white;
@@ -60,6 +64,7 @@ body {
     animation: slideleft 1s linear forwards;
 }
 
+
 @keyframes slideleft {
     0% {
         transform: translate(100px);
@@ -70,6 +75,14 @@ body {
         transform: translate(0px);
         opacity: 1;
     }
+}
+
+p.slide-left {
+    animation-delay: .5s;
+}
+
+button.slide-left {
+    animation-delay: 1s;
 }
 
 /* blog section */
