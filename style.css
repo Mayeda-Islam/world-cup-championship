@@ -1,5 +1,9 @@
+/* font awesome link or import file */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
 body {
     margin: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 .banner {
@@ -13,13 +17,15 @@ body {
 }
 
 .banner-info {
+    margin-top: 3%;
     width: 50%;
     margin-left: 6%;
 }
 
 .banner-title {
     font-weight: 600;
-    font-size: 70px;
+    font-size: 50px;
+    margin-bottom: 0;
 }
 
 .banner-info-para {
@@ -66,7 +72,7 @@ body {
     }
 
     .banner-info {
-        margin: 10% 0;
+        margin: 10%;
         width: 80%;
     }
 
@@ -86,6 +92,7 @@ body {
     }
 
     .banner-img img {
-        width: 100%;
+        width: 90%;
+        margin: auto;
     }
 }
