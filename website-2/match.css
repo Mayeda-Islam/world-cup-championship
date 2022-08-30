@@ -235,3 +235,54 @@ hr {
         flex-direction: column;
     }
 }
+
+/* responsive for tablet */
+@media screen and (min-width: 688px) and (max-width:992px) {
+    .banner {
+        height: 400px;
+    }
+
+    .banner-img img {
+        margin-top: 23%;
+        margin-left: 3%;
+        width: 95%;
+    }
+
+    .banner-title {
+        font-size: 30px;
+    }
+
+    /* blogs section */
+    .upcoming-matches {
+        display: grid;
+        grid-template-columns: 1fr;
+
+    }
+
+    .button-link-side {
+        width: 90vw;
+        height: 64px;
+        display: flex;
+        flex-direction: row;
+        background-color: white;
+        justify-content: center;
+        align-items: center;
+        column-gap: 22px;
+    }
+
+    .button-link-side button {
+        border: 1px solid gray;
+    }
+
+    .matches {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: auto;
+        row-gap: 55px;
+        /* column-gap: 55px; */
+    }
+
+    .match {
+        margin: auto;
+    }
+}
