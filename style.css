@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+}
+
+.banner {
+    background-color: black;
+    color: white;
+    display: flex;
+    width: 90vw;
+    height: 500px;
+    margin: 50px auto;
+    border-radius: 20px;
+}
+
+.banner-info {
+    width: 50%;
+    margin-left: 6%;
+}
+
+.banner-title {
+    font-weight: 600;
+    font-size: 70px;
+}
+
+.banner-info-para {
+    font-size: 16px;
+    margin-bottom: 5%;
+}
+
+
+
+.banner-button {
+    background-color: #DD0000;
+    color: white;
+    height: 55px;
+    width: 175px;
+}
+
+.banner-img {
+    width: 50%;
+}
+
+.banner-img img {
+    margin-top: 2.3%;
+    margin-left: 10%;
+    width: 80%;
+}
+
+/* media query for responsive(mobile) */
+@media screen and (max-width: 480px) {
+    body {
+        background-color: aqua;
+    }
+
+    .banner {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: auto 20px;
+    }
+
+    .banner-info {
+        width: 80%;
+
+    }
+
+    .banner-title {
+        font-size: 22px;
+    }
+}
