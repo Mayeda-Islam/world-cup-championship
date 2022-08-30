@@ -27,13 +27,15 @@ body {
     margin-bottom: 5%;
 }
 
-
-
 .banner-button {
+    margin-top: 2%;
     background-color: #DD0000;
     color: white;
     height: 55px;
     width: 175px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
 }
 
 .banner-img {
@@ -53,20 +55,37 @@ body {
     }
 
     .banner {
-        width: 100%;
+        width: 90%;
+        height: 90%;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin: auto 20px;
+        text-align: center;
+        margin: 5% auto;
     }
 
     .banner-info {
+        margin: 10% 0;
         width: 80%;
-
     }
 
     .banner-title {
-        font-size: 22px;
+        font-size: 30px;
+    }
+
+    .banner-info-para {
+        font-size: 14px;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.8);
+
+    }
+
+    .banner-img {
+        width: 100%;
+    }
+
+    .banner-img img {
+        width: 100%;
     }
 }
